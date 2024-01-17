@@ -1,0 +1,75 @@
+<html>
+
+<body>
+
+    <form>
+        <h2> The Largest Party of the Year </h2>
+
+        <label for="birthday">When is your birthday? </label>
+        <br />
+        <input type="text" id="birthday" name="birthday" required>
+
+        <br />
+        <br />
+
+        <label for="days"> Which day are you available to celebrate? </label>
+        <br />
+        <select id="days" name="days">
+            <option value="20 Jan">20 Jan</option>
+            <option value="22 Jan">22 Jan</option>
+        </select>
+
+        <br />
+        <br />
+
+        <label for="celebration"> Who do you want to invite? </label>
+        <br />
+        <input type="checkbox" id="john" name="john" value="john">
+        <label for="john"> John </label>
+        <input type="checkbox" id="mary" name="mary" value="mary">
+        <label for="mary"> Mary </label>
+
+        <br />
+        <br />
+    
+        <label for="celebration"> What is your favourite cuisine? </label>
+        <br />
+
+        <input type="radio" id="Chinese" name="options" value="Chinese">
+        <label for="Chinese"> Chinese </label>
+        <input type="radio" id="Indian" name="options" value="Indian">
+        <label for="Indian"> Indian </label>
+        <input type="radio" id="Vietnamese" name="options" value="Vietnamese">
+        <label for="Vietnamese"> Vietnamese </label>
+
+        <br />
+        <br />
+        <label for="quantity">How many presents you want to receive?</label>
+        <br />
+        <input type="number" id="quantity" name="quantity" min="1" max="5">
+
+        <br />
+        <br />
+
+        <label for="message"> Any birthday wishes:</label>
+        <br />
+        <textarea id="message" name="message" rows="4" cols="50" placeholder="Enter message here"
+        required> </textarea>
+
+        <br />
+        <br />
+
+        <img src="https://d34zicoa2zcr2f.cloudfront.net/sites/files/bakersbrewstudio2/productimg/202101/IMG_2925.jpg" alt="Happy Birthday"
+        width="400"
+        height="400">
+
+        <br />
+        <br />
+
+        <button type="submit"> Submit </button>
+        <button type="button" disabled>Re-Submit</button>
+    </form>
+
+</body>
+
+</html>
